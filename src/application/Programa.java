@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.Scanner;
 import entities.Quarto;
 
-public class ProgramaQuarto {
+public class Programa {
 
     public static void main(String[] args) {
 
@@ -50,4 +50,5 @@ public class ProgramaQuarto {
         sc.close();
     }
 }
+
 
