@@ -2,16 +2,16 @@ package application;
 
 import java.util.Locale;
 import java.util.Scanner;
-import entities.Quarto07;
+import entities.Quarto;
 
-public class Programa07 {
+public class ProgramaQuarto {
 
     public static void main(String[] args) {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        Quarto07[] quartos = new Quarto07[10];
+        Quarto[] quartos = new Quarto[10];
 
         System.out.print("Quantos quartos serão alugados? ");
         int n = sc.nextInt();
@@ -32,7 +32,7 @@ public class Programa07 {
             sc.nextLine();
 
             if (quartos[numeroQuarto] == null) {
-                quartos[numeroQuarto] = new Quarto07(nome, email);
+                quartos[numeroQuarto] = new Quarto(nome, email);
             } else {
                 System.out.println("Quarto já ocupado!");
                 i--; // repete esse aluguel
@@ -50,3 +50,4 @@ public class Programa07 {
         sc.close();
     }
 }
+
