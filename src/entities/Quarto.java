@@ -1,11 +1,11 @@
 package entities;
 
-public class Quarto07 {
+public class Quarto {
 
     private String nome;
     private String email;
 
-    public Quarto07(String nome, String email) {
+    public Quarto(String nome, String email) {
         this.nome = nome;
         this.email = email;
     }
@@ -22,3 +22,4 @@ public class Quarto07 {
         return nome + ", " + email;
     }
 }
+
